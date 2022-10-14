@@ -11,6 +11,6 @@ class Solution {
             }
         }
         
-        return intArrayOf()
+        return intArrayOf(0)
     }
 }
