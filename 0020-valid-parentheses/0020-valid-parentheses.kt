@@ -1,5 +1,6 @@
 class Solution {
     fun isValid(s: String): Boolean {
+        if (s.length % 2 == 1) return false
         val starts = mapOf(0 to '(', 1 to '[', 2 to '{')
         val ends = mapOf(0 to ')', 1 to ']', 2 to '}')
         val keyStack = mutableListOf<Int>()
